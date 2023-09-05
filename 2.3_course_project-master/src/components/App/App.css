@@ -1,0 +1,74 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #5e5e5e;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Passion One', cursive;
+    font-size: 50px;
+    text-shadow: 2px 2px rgb(154, 1, 168);
+  }
+  div {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Passion One', cursive;
+    font-size: 35px;
+    text-shadow: 2px 2px rgb(154, 1, 168);
+  }
+  .order-button button {
+    background-color: hsl(177, 100%, 50%);
+    border: none;
+    color: white;
+    padding: 12px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 10px 10px;
+    cursor: pointer;
+    white-space: nowrap;
+    font-family: 'Passion One', cursive;
+    position: relative;
+    left: 0px;
+    border-radius: 15%;
+    box-shadow: 5px 5px 10px 2px rgb(154, 1, 168);
+    text-shadow: 1px 2px 1px  rgb(0, 0, 0);
+  }
